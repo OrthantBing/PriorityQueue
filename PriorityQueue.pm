@@ -1,7 +1,8 @@
 package PriorityQueue;
 
-use Athena::Lib qw(:athena :intranet);                                                                                                                            
-use Athena::Policy;
+use strict;
+use warnings;
+
 use Scalar::Util qw( blessed );
 use POSIX;
 use Carp;
